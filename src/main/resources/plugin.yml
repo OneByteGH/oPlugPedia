@@ -1,0 +1,7 @@
+name: OPlugPedia
+version: '${project.version}'
+main: io.github.onebytegh.plugpedia.oplugpedia.OPlugPedia
+api-version: 1.19
+authors: [ OneByteGH, mfnalex ]
+description: A plugin that lets you use Wikipedia from Minecraft using /wp or /wikipedia
+website: github.com/OneByteGH
