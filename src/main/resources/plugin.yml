@@ -5,3 +5,8 @@ api-version: 1.19
 authors: [ OneByteGH, mfnalex ]
 description: A plugin that lets you use Wikipedia from Minecraft using /wp or /wikipedia
 website: github.com/OneByteGH
+commands:
+  wikipedia:
+    usage: /wp <query>
+    description: Searches Wikipedia for <query>
+    aliases: [ wp ]

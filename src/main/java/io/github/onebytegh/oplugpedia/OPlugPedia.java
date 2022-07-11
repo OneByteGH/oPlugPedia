@@ -1,4 +1,4 @@
-package io.github.onebytegh.plugpedia.oplugpedia;
+package io.github.onebytegh.oplugpedia;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
