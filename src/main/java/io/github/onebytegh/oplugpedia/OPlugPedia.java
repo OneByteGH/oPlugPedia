@@ -10,7 +10,7 @@ public final class OPlugPedia extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        wiki = new Wiki();
+        wiki = new Wiki.Builder().build();
         this.getCommand("wikipedia").setExecutor(new WikipediaCommand(this));
     }
 

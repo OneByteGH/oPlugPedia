@@ -42,10 +42,10 @@ public class WikipediaCommand implements CommandExecutor {
             String pageAuthor = wiki.getPageCreator(search);
             String extract = wiki.getTextExtract(search);
 
-            sender.sendMessage(ChatColor.YELLOW + " Title: §a" + search);
-            sender.sendMessage(ChatColor.YELLOW + "Author: §a" + pageAuthor);
-            sender.sendMessage(ChatColor.YELLOW + "  Text: §a" + extract + "...");
-            sender.sendMessage(ChatColor.YELLOW + "  Link: §a" + wiki.whatLinksHere(search).get(0));
+            sender.sendMessage(ChatColor.YELLOW + ">  Title: §a" + search);
+            sender.sendMessage(ChatColor.YELLOW + "> Author: §a" + pageAuthor);
+            sender.sendMessage(ChatColor.YELLOW + ">   Text: §a" + extract + "...");
+            sender.sendMessage(ChatColor.YELLOW + ">   Link: §a" + wiki.whatLinksHere(search).get(0));
         } else if(args[0].equalsIgnoreCase("full")) {
             //prepare a book
             String search = String.join(" ", args);
